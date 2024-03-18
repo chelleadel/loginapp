@@ -7,6 +7,13 @@ public class SignupRequest {
 
     private String username;
 
+    public SignupRequest(String username, String name, String role, String password) {
+        this.username = username;
+        this.name = name;
+        this.role = role;
+        this.password = password;
+    }
+
     private String name;
 
     private String role;
